@@ -72,15 +72,15 @@ export default function component() {
             </h1>
           </a>
           <nav role="navigation" className="nav-menu w-nav-menu">
-            <Link href="/chat" className="nav-link w-nav-link">
-              <button className='nav-link w-nav-link' style={{padding: '0'}} >ChatBot</button>
+            <Link href="/" className="nav-link w-nav-link">
+              <div className='nav-link w-nav-link' style={{padding: '0', opacity:'0.6'}} >ChatBot</div>
             </Link>
-            <a href="" className="nav-link w-nav-link">
+            <Link href="/models" className="nav-link w-nav-link">
               <button className='nav-link w-nav-link' style={{padding: '0'}} >Modelos</button>
-            </a>
-            <a href="./otros.html" className="nav-link w-nav-link">
+            </Link>
+            <Link href="./" className="nav-link w-nav-link">
               Conócenos
-            </a>
+            </Link>
             <a href="./otros.html" className="nav-link w-nav-link">
               Prototipo
             </a>

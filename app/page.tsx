@@ -2,6 +2,8 @@ import Image from "next/image";
 import Component from "./component";
 import Chatbot from "./chat/page"
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+
 const firebaseConfig = {
   apiKey: "AIzaSyCf2isIZm03rkEa_2W9xk-GzgmqyNrJl-o",
   authDomain: "ruedatec-9a808.firebaseapp.com",
@@ -12,8 +14,12 @@ const firebaseConfig = {
   measurementId: "G-E9P71GREY7"
 };
 const app = initializeApp(firebaseConfig);
+export const auth = getAuth(app);
+
 export default function Home() {
   return (
-    <><Component></Component></>
+    <>
+      
+    <Component></Component></>
   );
 }
