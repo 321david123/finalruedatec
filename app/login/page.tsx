@@ -1,17 +1,12 @@
 'use client'
-import { sign } from 'crypto';
-import Link from 'next/link'
 import { useState } from 'react';
 import {useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth'
 import {auth} from '@/app/firebase/config'
 import Script from 'next/script';
-import { error } from 'console';
 const SignUp = () => {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
-
 	const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
-
 	const handleSignUp = async() => {
 		try{
 			const res = await createUserWithEmailAndPassword(email, password);
@@ -22,7 +17,6 @@ const SignUp = () => {
 			console.error(e)
 		}
 	};
-
     return (
     <>
     <title>Sign up</title>
