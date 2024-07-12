@@ -1,10 +1,31 @@
+'use client'
 import { sign } from 'crypto';
 import Link from 'next/link'
+import { useState } from 'react';
+import {useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth'
+import {auth} from '@/app/firebase/config'
 import Script from 'next/script';
-export default function Login() {
+import { error } from 'console';
+const SignUp = () => {
+	const [email, setEmail] = useState('');
+	const [password, setPassword] = useState('');
+
+	const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
+
+	const handleSignUp = async() => {
+		try{
+			const res = await createUserWithEmailAndPassword(email, password);
+			console.log({res})
+			setEmail('');
+			setPassword('');
+		} catch(e){
+			console.error(e)
+		}
+	};
+
     return (
     <>
-    <title>Login</title>
+    <title>Sign up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/bootstrap/css/bootstrap.min.css"/>
 
@@ -27,12 +48,18 @@ export default function Login() {
 			<div className="wrap-login100">
 				<form className="login100-form validate-form">
 					<span className="login100-form-title p-b-26" >
-						Bienvenido, para continuar con la compra inicia sesión
+						Bienvenido, para continuar con la compra crea una cuenta
 					</span>
 
 
 					<div className="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
-						<input className="input100" type="text" name="email"/>
+						<input
+						type="email" 
+						className="input100"
+						name="email"
+						value={email}
+						onChange={(e)=> setEmail(e.target.value)}
+						  />
 						<span className="focus-input100" data-placeholder="Correo"></span>
 					</div>
 
@@ -40,14 +67,22 @@ export default function Login() {
 						<span className="btn-show-pass">
 							<i className="zmdi zmdi-eye"></i>
 						</span>
-						<input className="input100" type="password" name="pass"/>
+						<input
+						type="password" 
+						className="input100"
+						name="email"
+						value={password}
+						onChange={(e)=> setPassword(e.target.value)}
+						  />
 						<span className="focus-input100" data-placeholder="Contraseña"></span>
 					</div>
  
 					<div className="container-login100-form-btn">
 						<div className="wrap-login100-form-btn">
 							<div className="login100-form-bgbtn"></div>
-							<button className="login100-form-btn">
+							<button 
+							onClick={handleSignUp}
+							className="login100-form-btn">
 								Inicia sesión 
 							</button>
 						</div>
@@ -55,10 +90,10 @@ export default function Login() {
 
 					<div className="text-center p-t-115">
 						<span className="txt1">
-							No tienes una cuenta?
+							Ya tienes una cuenta?
 						</span>
 						<a className="txt2" href="#">
-							 Registrate
+							 Inicia sesión
 						</a>
 					</div>
 				</form>
@@ -88,3 +123,4 @@ export default function Login() {
     </>
     );
 }
+export default SignUp;
