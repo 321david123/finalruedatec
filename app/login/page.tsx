@@ -3,7 +3,7 @@ import { useState } from 'react';
 import {useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth'
 import {auth} from '@/app/firebase/config'
 import Script from 'next/script';
-const SignUp = () => {
+export default function SignUp() {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
@@ -117,4 +117,3 @@ const SignUp = () => {
     </>
     );
 }
-export default SignUp;
