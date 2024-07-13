@@ -9,7 +9,7 @@ export default function Models() {
 
         <div className="grid">
         <div className="card">
-        <Link href={"/login"}>
+        <Link href={"/signup"}>
         <span className="icon">
             <svg
                 viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ export default function Models() {
         </Link>
         </div>
         <div className="card">
-        <Link href={"/login"}>
+        <Link href={"/signup"}>
             <span className="icon">
             <svg
                 viewBox="0 0 24 24"
