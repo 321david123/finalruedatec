@@ -1,29 +1,38 @@
 'use client'
 import { useState } from 'react';
-import {useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth'
+import {useSignInWithEmailAndPassword} from 'react-firebase-hooks/auth'
 import {auth} from '@/app/firebase/config'
 import Script from 'next/script';
-export default function SignUp() {
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { useRouter } from 'next/navigation';
+export default function SignIn() {
+
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
-	const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
-	const handleSignUp = async() => {
+	const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
+    const router = useRouter()
+	const handleSignIn = async() => {
 		try{
-			const res = await createUserWithEmailAndPassword(email, password);
+			const res = await signInWithEmailAndPassword(email, password);
 			console.log({res})
 			setEmail('');
 			setPassword('');
+            router.push('/')
 		} catch(e){
 			console.error(e)
 		}
 	};
     return (
     <>
+
     <title>Sign up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/bootstrap/css/bootstrap.min.css"/>
 
+	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/css/util.css"/>
+	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/css/main.css"/>
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/select2/select2.min.css"/>
  
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/fonts/iconic/css/material-design-iconic-font.min.css"/>
 
@@ -31,21 +40,15 @@ export default function SignUp() {
 	
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/css-hamburgers/hamburgers.min.css"/>
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/animsition/css/animsition.min.css"/>
-	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/select2/select2.min.css"/>
 	
 	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/vendor/daterangepicker/daterangepicker.css"/>
-	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/css/util.css"/>
-	<link rel="stylesheet" type="text/css" href="https://321david123.github.io/images/css/main.css"/>
-     
 	<div className="limiter">
-		<div className="container-login100"  style={{background: 'black'}}>
+		<div className="container-login100" style={{background: 'black'}}>
 			<div className="wrap-login100">
 				<form className="login100-form validate-form">
 					<span className="login100-form-title p-b-26" >
-						Bienvenido, para continuar con la compra crea una cuenta
+						Bienvenido, para continuar con la compra inicia sesión
 					</span>
-
-
 					<div className="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
 						<input
 						type="email" 
@@ -56,7 +59,6 @@ export default function SignUp() {
 						  />
 						<span className="focus-input100" data-placeholder="Correo"></span>
 					</div>
-
 					<div className="wrap-input100 validate-input" data-validate="Enter password">
 						<span className="btn-show-pass">
 							<i className="zmdi zmdi-eye"></i>
@@ -75,8 +77,8 @@ export default function SignUp() {
 						<div className="wrap-login100-form-btn">
 							<div className="login100-form-bgbtn"></div>
 							<button 
-							onClick={handleSignUp}
-							className="login100-form-btn"  style={{background: 'black'}}>
+							onClick={handleSignIn}
+							className="login100-form-btn" style={{background: 'black'}}>
 								Inicia sesión 
 							</button>
 						</div>
@@ -84,10 +86,11 @@ export default function SignUp() {
 
 					<div className="text-center p-t-115">
 						<span className="txt1">
-							<p>Ya tienes una cuenta?</p>
+							<p>No tienes una cuenta?</p>
 						</span>
-						<a className="txt2" href="/signin">
-							 Inicia sesión
+                        
+						<a className="txt2" href="/signup">
+							 Crea una
 						</a>
 					</div>
 				</form>
