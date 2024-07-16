@@ -44,8 +44,6 @@ export default function SignUp() {
 					<span className="login100-form-title p-b-26" >
 						Bienvenido, para continuar con la compra crea una cuenta
 					</span>
-
-
 					<div className="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
 						<input
 						type="email" 
