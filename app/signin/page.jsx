@@ -5,19 +5,27 @@ import {auth} from '@/app/firebase/config'
 import Script from 'next/script';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
+import { useAuthState } from 'react-firebase-hooks/auth';
+
 export default function SignIn() {
 
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [signInWithEmailAndPassword] = useSignInWithEmailAndPassword(auth);
     const router = useRouter()
-	const handleSignIn = async() => {
+	const HandleSignIn = async() => {
 		try{
 			const res = await signInWithEmailAndPassword(email, password);
+			console.log(res)
+			if (res)
+				router.push('/models')
+			else
+				alert('Contraseña o email incorrecto!')
+				// console.log('llegamosaqui')
 			console.log({res})
 			setEmail('');
 			setPassword('');
-            router.push('/models')
+            // router.push('/models')
 		} catch(e){
 			console.error(e)
 		}
@@ -77,7 +85,7 @@ export default function SignIn() {
 						<div className="wrap-login100-form-btn">
 							<div className="login100-form-bgbtn"></div>
 							<button 
-							onClick={handleSignIn}
+							onClick={HandleSignIn}
 							className="login100-form-btn" style={{background: 'black'}}>
 								Inicia sesión 
 							</button>

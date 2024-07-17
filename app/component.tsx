@@ -1,8 +1,6 @@
 'use client'
 import Script from "next/script"
-import Image from "next/image"
 import Link from 'next/link'
-import Chatbot from './chat/page'
 export default function component() {
     return (
     <>
@@ -78,7 +76,7 @@ export default function component() {
             <Link href="/models" className="nav-link w-nav-link">
               <button className='nav-link w-nav-link' style={{padding: '0'}} >Modelos</button>
             </Link>
-            <Link href="./" className="nav-link w-nav-link">
+            <Link href="./conocenos" className="nav-link w-nav-link">
               Conócenos
             </Link>
             <a href="./otros.html" className="nav-link w-nav-link">
