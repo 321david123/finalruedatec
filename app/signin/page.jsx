@@ -17,7 +17,7 @@ export default function SignIn() {
 			console.log({res})
 			setEmail('');
 			setPassword('');
-            router.push('/')
+            router.push('/models')
 		} catch(e){
 			console.error(e)
 		}

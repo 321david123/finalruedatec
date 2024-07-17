@@ -3,16 +3,19 @@ import { useState } from 'react';
 import {useCreateUserWithEmailAndPassword} from 'react-firebase-hooks/auth'
 import {auth} from '@/app/firebase/config'
 import Script from 'next/script';
+import {useRouter} from 'next/navigation';
 export default function SignUp() {
 	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
+    const router = useRouter()
 	const handleSignUp = async() => {
 		try{
 			const res = await createUserWithEmailAndPassword(email, password);
 			console.log({res})
 			setEmail('');
 			setPassword('');
+			router.push('/models')
 		} catch(e){
 			console.error(e)
 		}
