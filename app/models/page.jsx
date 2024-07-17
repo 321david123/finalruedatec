@@ -24,7 +24,7 @@ export default function Models() {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css"/>
             <link rel="stylesheet" href="https://321david123.github.io/images/style.css"/>  
-            <button onClick={()=> signOut(auth)}>Sign out</button>
+            <button onClick={()=> signOut(auth)}>Cerrar sesión</button>
             <div className="grid">
                 <div className="card">
                     <a href="#" onClick={(e) => handleLinkClick(e, 'https://buy.stripe.com/test_4gwcNCcN20DmguY6oo')}>
