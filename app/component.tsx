@@ -20,17 +20,17 @@ export default function component() {
       <meta property="og:site_name" content="RuedaTec" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link
-        href="https://ruedatec.com/css/webflow.css"
+        href="https://ruedatec.com/css/stylss.css"
         rel="stylesheet"
         type="text/css"
       />
       <link
-        href="https://ruedatec.com/css/newone3.webflow.css"
+        href="https://321david123.github.io/RuedaTec/css/newone3.webflow.css"
         rel="stylesheet"
         type="text/css"
       />
       <link
-        href="https://ruedatec.com/css/normalize.css"
+        href="https://321david123.github.io/RuedaTec/css/normalize.css"
         rel="stylesheet"
         type="text/css"
       />
@@ -656,7 +656,7 @@ export default function component() {
         src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64a6075f43011bbeb7a0db92"
         type="text/javascript"
       ></Script>
-      <Script async src="https://ruedatec.com/js/webflow.js"></Script>
+      <Script async src="https://ruedatec.com/js/newjs.js"></Script>
       {/* <script src='https://ruedatec.com/js/webflow.js'></script> */}
     </>
     );
