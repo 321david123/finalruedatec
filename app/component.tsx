@@ -20,7 +20,7 @@ export default function component() {
       <meta property="og:site_name" content="RuedaTec" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link
-        href="https://ruedatec.com/css/stylss.css"
+        href="https://321david123.github.io/RuedaTec/css/stylss.css"
         rel="stylesheet"
         type="text/css"
       />
