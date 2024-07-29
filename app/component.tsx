@@ -656,7 +656,7 @@ export default function component() {
         src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64a6075f43011bbeb7a0db92"
         type="text/javascript"
       ></Script>
-      <Script async src="https://ruedatec.com/js/newjs.js"></Script>
+      <Script async src="https://321david123.github.io/RuedaTec/js/newjs.js"></Script>
       {/* <script src='https://ruedatec.com/js/webflow.js'></script> */}
     </>
     );
