@@ -141,7 +141,7 @@ export default function component() {
                 //   sizes="(max-width: 479px) 94vw, 90vw"
                   // width={480}
                   // height={4}
-                    src="https://ruedatec.com/images/Cell-Background-1_1-p-3200.jpg"
+                    src="https://321david123.github.io/RuedaTec/images/Cell-Background-1_1-p-3200.jpg"
                   alt=""
                   className="background-image"
                 />
@@ -161,7 +161,7 @@ export default function component() {
                 //   src={head2}
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-2_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-2_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-2_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-2_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-2_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-2_1-p-2600.jpg 2600w"
+                  srcSet="https://321david123.github.io/RuedaTec/images/Cell-Background-2_1-p-500.jpg 500w, https://321david123.github.io/RuedaTec/images/Cell-Background-2_1-p-800.jpg 800w, https://321david123.github.io/RuedaTec/images/Cell-Background-2_1-p-1080.jpg 1080w, https://321david123.github.io/RuedaTec/images/Cell-Background-2_1-p-1600.jpg 1600w,https://321david123.github.io/RuedaTec/images/Cell-Background-2_1-p-2000.jpg 2000w, https://321david123.github.io/RuedaTec/images/Cell-Background-2_1-p-2600.jpg 2600w"
                   alt=""
                   className="background-image"
                 />
@@ -243,7 +243,7 @@ export default function component() {
                 //   src={head3}
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-3_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-3_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-3_1-p-1080.jpg 1080w,https://ruedatec.com/images/Cell-Background-3_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-3_1-p-2000.jpg 2000w"
+                  srcSet="https://321david123.github.io/RuedaTec/images/Cell-Background-3_1-p-500.jpg 500w, https://321david123.github.io/RuedaTec/images/Cell-Background-3_1-p-800.jpg 800w, https://321david123.github.io/RuedaTec/images/Cell-Background-3_1-p-1080.jpg 1080w,https://321david123.github.io/RuedaTec/Cell-Background-3_1-p-1600.jpg 1600w, https://321david123.github.io/RuedaTec/images/Cell-Background-3_1-p-2000.jpg 2000w"
                   alt="head image"
                   className="background-image"
                 />
@@ -285,10 +285,10 @@ export default function component() {
                   </div>
                 </div>
                 <img
-                  src="https://ruedatec.com/images/Cell-Background-4_1Cell-Background-4.webp"
+                  src="https://321david123.github.io/RuedaTec/images/Cell-Background-4_1Cell-Background-4.webp"
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-4_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-4_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-4_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-4_1-p-1600.jpg 1600w,https://ruedatec.com/images/Cell-Background-4_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-4_1-p-2600.jpg 2600w"
+                  srcSet="https://321david123.github.io/RuedaTec/images/Cell-Background-4_1-p-500.jpg 500w, https://321david123.github.io/RuedaTec/images/Cell-Background-4_1-p-800.jpg 800w, https://321david123.github.io/RuedaTec/images/Cell-Background-4_1-p-1080.jpg 1080w, https://321david123.github.io/RuedaTec/images/Cell-Background-4_1-p-1600.jpg 1600w,https://321david123.github.io/RuedaTec/images/Cell-Background-4_1-p-2000.jpg 2000w, https://321david123.github.io/RuedaTec/images/Cell-Background-4_1-p-2600.jpg 2600w"
                   alt=""
                   className="background-image"
                 />
@@ -307,10 +307,10 @@ export default function component() {
                   </div>
                 </div>
                 <img
-                  src="https://ruedatec.com/images/Cell-Background-5_1Cell-Background-5.webp"
+                  src="https://321david123.github.io/RuedaTec/images/Cell-Background-5_1Cell-Background-5.webp"
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-5_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-5_1-p-800.jpg 800w, https://ruedatec.com/images/Cell-Background-5_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-5_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-5_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-5_1-p-2600.jpg 2600w, https://ruedatec.com/images/Cell-Background-5_1-p-3200.jpg 3200w"
+                  srcSet="https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-500.jpg 500w, https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-800.jpg 800w, https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-1080.jpg 1080w,https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-1600.jpg 1600w,https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-2000.jpg 2000w, https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-2600.jpg 2600w, https://321david123.github.io/RuedaTec/images/Cell-Background-5_1-p-3200.jpg 3200w"
                   alt=""
                   className="background-image"
                 />
@@ -329,10 +329,10 @@ export default function component() {
                   </div>
                 </div>
                 <img
-                  src="https://ruedatec.com/images/Cell-Background-6_1Cell-Background-6.webp"
+                  src="https://321david123.github.io/RuedaTec/images/Cell-Background-6_1Cell-Background-6.webp"
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-6_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-6_1-p-800.jpg 800w, https://ruedatec.com/images//Cell-Background-6_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-6_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-6_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-6_1-p-2600.jpg 2600w, https://ruedatec.com/images/Cell-Background-6_1-p-3200.jpg 3200w"
+                  srcSet="https://321david123.github.io/RuedaTec/images/Cell-Background-6_1-p-500.jpg 500w, https://321david123.github.io/RuedaTec/images/Cell-Background-6_1-p-800.jpg 800w, https://321david123.github.io/RuedaTec/Cell-Background-6_1-p-1080.jpg 1080w, https://321david123.github.io/RuedaTec/images/Cell-Background-6_1-p-1600.jpg 1600w, https://321david123.github.io/RuedaTec/images/Cell-Background-6_1-p-2000.jpg 2000w, https://321david123.github.io/RuedaTec/images/Cell-Background-6_1-p-2600.jpg 2600w, https://321david123.github.io/RuedaTec/images/Cell-Background-6_1-p-3200.jpg 3200w"
                   alt=""
                   className="background-image"
                 />
@@ -350,10 +350,10 @@ export default function component() {
                   </h3>
                 </div>
                 <img
-                  src="https://ruedatec.com/images/Cell-Background-7_1Cell-Background-7.webp"
+                  src="https://321david123.github.io/RuedaTec/images/Cell-Background-7_1Cell-Background-7.webp"
                   loading="lazy"
                   sizes="(max-width: 479px) 94vw, 90vw"
-                  srcSet="https://ruedatec.com/images/Cell-Background-7_1-p-500.jpg 500w, https://ruedatec.com/images/Cell-Background-7_1-p-800.jpg 800w,https://ruedatec.com/images/Cell-Background-7_1-p-1080.jpg 1080w, https://ruedatec.com/images/Cell-Background-7_1-p-1600.jpg 1600w, https://ruedatec.com/images/Cell-Background-7_1-p-2000.jpg 2000w, https://ruedatec.com/images/Cell-Background-7_1-p-2600.jpg 2600w, https://ruedatec.com/images/Cell-Background-7_1-p-3200.jpg 3200w"
+                  srcSet="https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-500.jpg 500w, https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-800.jpg 800w,https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-1080.jpg 1080w,https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-1600.jpg 1600w, https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-2000.jpg 2000w, https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-2600.jpg 2600w, https://321david123.github.io/RuedaTec/images/Cell-Background-7_1-p-3200.jpg 3200w"
                   alt=""
                   className="background-image"
                 />
@@ -389,11 +389,11 @@ export default function component() {
               className="w-layout-cell"
             >
               <img
-                src="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM.jpeg"
+                src="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM.jpeg"
                 loading="lazy"
                 width={929}
                 sizes="90vw"
-                srcSet="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-p-500.jpeg 500w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-p-800.jpeg 800w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM.jpeg 1024w"
+                srcSet="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-p-500.jpeg 500w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-p-800.jpeg 800w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM.jpeg 1024w"
                 alt=""
                 className="image"
               />
@@ -403,10 +403,10 @@ export default function component() {
               className="w-layout-cell"
             >
               <img
-                src="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5.jpeg"
+                src="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5.jpeg"
                 loading="lazy"
                 sizes="90vw"
-                srcSet="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5-p-500.jpeg 500w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5-p-800.jpeg 800w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5.jpeg 981w"
+                srcSet="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5-p-500.jpeg 500w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5-p-800.jpeg 800w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-5.jpeg 981w"
                 alt=""
               />
               <h3>Antes de todo...</h3>
@@ -421,10 +421,10 @@ export default function component() {
               className="w-layout-cell"
             >
               <img
-                src="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4.jpeg"
+                src="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4.jpeg"
                 loading="lazy"
                 sizes="90vw"
-                srcSet="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4-p-500.jpeg 500w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4-p-800.jpeg 800w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4.jpeg 940w"
+                srcSet="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4-p-500.jpeg 500w,https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4-p-800.jpeg 800w,https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.06.47-PM-4.jpeg 940w"
                 alt=""
               />
               <h3>Pensamos en todo.</h3>
@@ -435,10 +435,10 @@ export default function component() {
             >
               <img
                 // src={image1}
-                src="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM.jpeg"
+                src="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM.jpeg"
                 loading="lazy"
                 sizes="(max-width: 1422px) 90vw, 1280px"
-                srcSet="https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM-p-500.jpeg 500w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM-p-800.jpeg 800w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM-p-1080.jpeg 1080w, https://ruedatec.com/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM.jpeg 1280w"
+                srcSet="https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM-p-500.jpeg 500w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM-p-800.jpeg 800w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM-p-1080.jpeg 1080w, https://321david123.github.io/RuedaTec/images/WhatsApp-Image-2023-07-31-at-7.19.18-PM.jpeg 1280w"
                 alt=""
                 className="image-2"
               />
