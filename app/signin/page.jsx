@@ -55,7 +55,7 @@ export default function SignIn() {
 			<div className="wrap-login100">
 				<form className="login100-form validate-form">
 					<span className="login100-form-title p-b-26" >
-						Bienvenido, para continuar con la compra inicia sesión
+						Bienvenido, para continuar inicia sesión
 					</span>
 					<div className="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
 						<input

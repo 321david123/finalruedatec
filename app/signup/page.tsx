@@ -45,7 +45,7 @@ export default function SignUp() {
 			<div className="wrap-login100">
 				<form className="login100-form validate-form">
 					<span className="login100-form-title p-b-26" >
-						Bienvenido, para continuar con la compra crea una cuenta
+						Bienvenido, para continuar crea una cuenta
 					</span>
 					<div className="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
 						<input
@@ -78,7 +78,7 @@ export default function SignUp() {
 							<button 
 							onClick={handleSignUp}
 							className="login100-form-btn"  style={{background: 'black'}}>
-								Inicia sesión 
+								Crear cuenta
 							</button>
 						</div>
 					</div>
