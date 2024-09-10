@@ -117,8 +117,8 @@ export default function component() {
           </div>
         </div>
       </div>
-      <div className="">
-         <video muted loop autoPlay src={"/vid.mov"} style={{ width: "400px", opacity:0.4}} />      </div>
+      {/* <div className="">
+         <video muted loop autoPlay src={"/vid.mov"} style={{ width: "400px", opacity:0.4}} />      </div> */}
       <section className="hero-section">
         <div className="container">
           <div
