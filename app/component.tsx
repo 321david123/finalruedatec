@@ -4,6 +4,19 @@ import Link from 'next/link'
 export default function component() {
     return (
     <>
+          {/* Google tag (gtag.js) */}
+          <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-YQ9964FP7G"
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-YQ9964FP7G');
+        `}
+      </Script>
     <meta charSet="utf-8" />
       <title>RuedaTec</title>
       <meta
